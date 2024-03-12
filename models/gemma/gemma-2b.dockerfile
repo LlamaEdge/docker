@@ -1,4 +1,5 @@
-FROM llamaedge/api-server:latest
+ARG BASE_IMAGE=llamaedge/api-server:latest
+FROM $BASE_IMAGE
 MAINTAINER hydai hydai@secondstate.io
 ENV DEBIAN_FRONTEND=noninteractive
 

@@ -1,4 +1,5 @@
-FROM llamaedge/ubuntu-base:latest
+ARG BASE_IMAGE=llamaedge/ubuntu-base:latest
+FROM $BASE_IMAGE
 MAINTAINER hydai hydai@secondstate.io
 ENV DEBIAN_FRONTEND=noninteractive
 
