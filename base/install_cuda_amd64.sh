@@ -1,5 +1,5 @@
 #!/bin/bash
-export NNCV=12.0
+export NNCV=12-4
 export NNARCH=x86_64
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/"${NNARCH}"/cuda-keyring_1.1-1_all.deb
 dpkg -i cuda-keyring_1.1-1_all.deb
